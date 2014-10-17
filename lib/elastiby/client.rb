@@ -3,6 +3,8 @@ require_relative 'serializer'
 
 module Elastiby
   class Client
+    attr_reader :server, :port, :format
+
     def initialize server, options = {}
       @server = server
       @port = options[:port] || 9200

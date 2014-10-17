@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name = 'elastiby'
-  spec.version = '0.1.0'
+  spec.version = '0.1.1'
   spec.date = '2014-10-17'
   spec.summary = 'Elastiby'
   spec.description = 'Wraps parts of the Elasticsearch API'
